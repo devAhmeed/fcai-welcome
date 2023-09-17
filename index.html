@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Say Hi</title>
+    <style>
+      .btn-primary {
+        background-color: #bc9127;
+        border: 0;
+        color: black;
+      }
+      body {
+        padding: 2%;
+        position: relative;
+      }
+      html,
+      body {
+        height: 100vh;
+      }
+      span {
+        color: #bc9127;
+      }
+      .sz {
+        width: 15% !important;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 95%;
+      }
+      @media all and (max-width: 767px) {
+        .sz {
+          width: 25% !important;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #212529;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="nav text-center d-flex justify-content-center align-items-center"
+    >
+      <img
+        class="img-fluid"
+        src="Frame3.svg"
+        alt="svnu-logo-and-student-care-svnu-logo"
+      />
+    </div>
+    <div
+      class="main text-center d-flex justify-content-center align-items-center"
+      style="transform: translateY(10vh)"
+    >
+      <p class="display-4">
+        <span class="fw-bold" style="color: black"
+          >Welcome <span>Students!</span></span
+        ><br />
+        it's our first met and we got something for you.
+      </p>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center text-center"
+      style="transform: translateY(20vh)"
+    >
+      <form method="post" action="">
+        <div class="mb-3">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >National ID</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              style="padding-right: 15vw"
+            />
+          </div>
+          <div id="naid" class="form-text">Ex : 30403XXXXXXXXX</div>
+        </div>
+        <button type="submit" class="btn btn-primary px-5">Get Message</button>
+      </form>
+    </div>
+    <footer
+      style="font-size: 1.5vh !important"
+      class="text-center d-flex justify-content-center align-items-center fw-medium fs-6"
+    >
+      Dev &amp; UI With ❤ by<span class="fw-bold">
+        &lt; <a href="https://www.facebook.com/devAhmeed/">Ahmed Hisham</a> ,
+        <a href="https://www.facebook.com/TarekBenFatah">Tarek Fatah.</a>
+        &gt;</span
+      >
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
